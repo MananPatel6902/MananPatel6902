@@ -14,28 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
-# A Python 3.5+ script that prints a coloured heatmap of activity similar to
-# the one shown in one's GitHub profile. It has some limitations such as not
-# printing month and weekday names, because it is hard to predict where to put
-# the month name. It should work in any terminal that supports 256 colors [1].
-#
-# The script accepts a list of Unix timestamps as piped or redirected
-# input. For instance, to visualize the commit heatmap of a locally cloned
-# repository, use the command below. Suggested additional flags to git-log(1)
-# are --author/--committer, --since/--until, --no-merges etc.
-#
-#   $ git -C /path/to/repo log --format="%at" | python git-commit-history.py
-#
-# If one has $HISTTIMEFORMAT set, then the Bash history file can also be parsed
-# to extract timestamps, for example as done below.
-#
-#  $ awk -F# '/^#[0-9]{10}/ {print $2}' $HISTFILE \
-#    | python git-commit-heatmap.py
-#
-# [1] https://gist.github.com/XVilka/8346728
 
 from datetime import date, timedelta
 from fileinput import input as finput
