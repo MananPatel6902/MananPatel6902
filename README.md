@@ -1,5 +1,7 @@
 ### Hi there , It's Manan here 👋
 
+<br> 
+Author - Manan Patel
 <!--
 **MananPatel6902/MananPatel6902** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
