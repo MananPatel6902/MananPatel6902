@@ -1,5 +1,5 @@
 <h1 align="center">Hi there 👋, I'm Manan Patel</h1>
-<p align="center">🚀 Software Engineer | AI & Data Science Enthusiast | Portfolio below 👇</p>
+<p align="center">🚀 Software Engineer | AI & Data Science Enthusiast </p>
 
 ---
 
